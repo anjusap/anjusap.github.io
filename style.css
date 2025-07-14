@@ -1,80 +1,63 @@
-body {
-  margin: 0;
-  padding: 0;
-  background: #111;
-  color: #fff;
-  font-family: "Segoe UI", sans-serif;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
-}
-
-.container {
-  padding: 5px 10px;
-  text-align: center;
-  animation: fadeIn 2s ease-in-out;
-  background-color: #181818;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #00ffff;
-}
-
-.name {
-  font-size: 3rem;
-  color: #00ffff;
-  text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
-  animation: pulse 2s infinite;
-}
-
-.message {
-  margin-top: 20px;
-  font-size: 1.5rem;
-  color: #ffcc00;
-  animation: blink 1.5s infinite;
-}
-
-@keyframes pulse {
-  0%,
-  100% {
-    text-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
-  50% {
-    text-shadow: 0 0 20px #00ffff, 0 0 30px #00ffff;
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
   }
-}
-
-@keyframes blink {
-  0%,
-  100% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 0.3;
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@media (min-width: 600px) {
+  
   .container {
-    width: 80%;
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
   }
-
-  .name {
-    font-size: 6rem;
+  
+  header {
+    background: #4a90e2;
+    color: white;
+    padding: 60px 0;
+    text-align: center;
   }
-
-  .message {
-    font-size: 2.5rem;
+  
+  header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
   }
-}
+  
+  header p {
+    font-size: 1.2rem;
+  }
+  
+  section {
+    padding: 40px 0;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .about p {
+    font-size: 1.1rem;
+  }
+  
+  .skills ul {
+    list-style-type: square;
+    padding-left: 20px;
+    font-size: 1.1rem;
+  }
+  
+  footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+  }  

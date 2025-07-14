@@ -1,16 +1,41 @@
-# Anjali Jaiswal - Portfolio
+# 🌐 Anjali Jaiswal - Portfolio
 
-Welcome to my personal portfolio website!
+Welcome to my **personal portfolio website**!  
+This site showcases my work, skills, and projects as a BCA student and developer.
 
-🚧 **This website is currently under construction.**  
-Stay tuned — exciting projects and content are on the way.
+🚧 **Note:**  
+This website is currently **under construction**.  
+Stay tuned — exciting projects and content are on the way!
 
-## 🔧 Tech Stack Used
+---
 
-- HTML5
-- CSS3
-- JavaScript
+## 🛠️ Tech Stack
 
-## 📍 Live Site
+- **HTML5**  
+- **CSS3**  
+- **JavaScript**
 
-Visit: [https://anjusap.github.io](https://anjusap.github.io)
+---
+
+## 🔗 Live Website
+
+Check it out here:  
+👉 [https://anjusap.github.io](https://anjusap.github.io)
+
+---
+
+## 📁 Project Status
+
+- [x] Domain Configured (GitHub Pages)  
+- [x] Initial Setup  
+- [ ] Portfolio Projects  
+- [ ] Blog or Articles  
+- [ ] Contact Section
+
+---
+
+## 📫 Contact
+
+Feel free to reach out via [GitHub](https://github.com/anjusap) or connect with me for collaborations and opportunities.
+
+---
